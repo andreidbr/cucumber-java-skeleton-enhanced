@@ -1,2 +1,25 @@
-# cucumber-java-skeleton-enhanced
-A skeleton project for Cucumber and Java with back-end and front-end tests
+# Cucumber Java Skeleton Enhanced
+![An enhanced Cucumber Java Skeleton project with the essential dependencies](cucumber-automation-framework-skeleton-header.png)
+
+Cucumber is a great BDD framework, but I've found the official Cucumber Java Skeleton project as lacking. As such, I decided to create an enhanced skeleton that includes some sample back-end and front-end tests.
+
+Check out all the details on my website and on this YouTube video:
+
+## About the repo
+I've added sample feature files with:
+- back-end tests using Rest Assured
+- front-end tests using Selenium
+- general tests showing how to use data tables
+- all feature files demonstrate some essential Cucumber features like Background steps, Before and After hooks, or Scenario Outlines, Cucumber Expressions
+
+The test runner uses JUnit 5, and I've configured Cucumber PrettyReports plugin that automatically generates reports in `target/cucumber/cucumber-html-reports`
+
+## Using it
+
+Prerequisites:
+- Java JDK 17 installed
+- Apache Maven installed
+- Google Chrome installed. If you use other browsers, you will need to modify the webdriver instantiated in `src/test/resources/com/andreidobra/frontend.feature` and `src/test/java/com/andreidobra/stepdefs/FrontendStepDefs.java`
+- optional: IntelliJ Community Edition installed
+
+To execute it, run `mvn test`. It will run all scenarios that match the tags explicitly declared in `src/test/java/com/andreidobra/runner/RunCucumberTest.java`
