@@ -3,7 +3,9 @@
 
 Cucumber is a great BDD framework, but I've found the official Cucumber Java Skeleton project as lacking. As such, I decided to create an enhanced skeleton that includes some sample back-end and front-end tests.
 
-Check out all the details on my website and on this YouTube video:
+Check out all the details on my website and on this YouTube video: https://youtu.be/tF8dsGpCBgI
+
+If you're looking for a simple test automation framework without Java, check out my other free repo: https://github.com/andreidbr/test-automation-framework-skeleton
 
 ## About the repo
 I've added sample feature files with:
